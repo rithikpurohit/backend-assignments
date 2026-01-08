@@ -1,0 +1,32 @@
+In your browser DevTools Network tab, trigger a request to any website (e.g., your own site or google.com) and inspect:
+
+URL
+Method
+Request headers
+Response headers
+Body (if any)
+
+Write a short explanation (5–8 lines) describing what happened from request → response.
+
+Once we type the url (https://www.google.com) and hit enter, it sends a request to the url.
+
+In network tab we have -
+
+request headers -
+:authority	
+:method		
+:path		
+:scheme		
+accept		
+accept-encoding	
+accept-language, etc.
+
+it specifies the type of request and what is expected response type, scheme, encoding, language, etc.
+
+response headers - 
+content type
+date
+permission-policy, etc.
+
+this is like metadata about the response and the actual response is a HTML Template of the page fetched from the google server where it is physically stored.backend day one
+
