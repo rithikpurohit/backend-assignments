@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "36e34682-2eb8-4021-aa45-35b9d8552a92",
+		"name": "backend-day-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51430295",
+		"_collection_link": "https://rithik-purohit-1479850.postman.co/workspace/Rithik-Purohit's-Workspace~83087edb-9a69-4136-84cc-335ed74eb94b/collection/51430295-36e34682-2eb8-4021-aa45-35b9d8552a92?action=share&source=collection_link&creator=51430295"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/users/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/users/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/users/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Rithik\",\n    \"role\": \"intern\",\n    \"health_status\": \"OK\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/users/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/users/6/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Rithik\",\n    \"role\": \"intern\",\n    \"health_status\": \"OK\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/users/6/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"6",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/users/6/health/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/users/6/health/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"6",
+						"health",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
